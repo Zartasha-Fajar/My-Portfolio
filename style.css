@@ -1,0 +1,623 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(241,241,241);
+}
+.parent-div{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    
+}
+.portfolio{
+    width:  350px ;
+    height:100vh;
+    background-color: white;
+    box-shadow: 0px 0px 3px 0px gray;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+
+.img{
+    width: 150px;
+    height: 140px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.portfolio h1{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.portfolio ul{
+    list-style-type: none;
+}
+.tem{
+    color: gray;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.za {
+    color: green;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.zoro ,.zoro1{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.icon-1{
+    padding-left: 20px;
+}
+.icon{
+    margin-top: 20px;
+}
+.right_section{
+    width: 93%;
+    padding-left: 20px;
+}
+.my{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(241,241,241);
+    padding-left: 20px;
+    padding-bottom: 40px;
+}   
+.navbar{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: none;
+    
+}
+.fa-bars{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.pic{
+    width: 50px;
+height: 50px;
+border: 1px solid black;
+border-radius: 50%;
+background-image: url(./avatar_g2.jpg);
+background-size: cover;
+
+}
+
+.my h1{
+    padding-top: 30px;
+}
+.filter{
+    width: 45%;
+    height: max-content;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.filter h3{
+    color: gray;
+    padding-top: 5px;
+
+}
+.all {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    
+}
+.all-1{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    box-shadow: 0px 0px 3px 0px gray;
+}
+.all-1:hover{
+    background-color: gray;
+    color: white;
+}
+.design:hover, .photo:hover , .art:hover{
+    background-color: gray;
+}
+.all h3{
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.design ,.photo,.art{
+    width: 100px;
+background-color: white;
+box-shadow: 1px 1px 2px 1px gray;
+
+}
+.design i ,.design h3,.photo h3 ,.art h3{
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+}
+.fa-gem ,.fa-image,.fa-paintbrush{
+    margin-top: 5px;
+}
+
+.gray-div{
+    width: 97%;
+    height: 5px;
+    border: 3px solid rgb(204,204,204);
+    margin-top: 30px;
+}
+.row-1 ,.row-2{
+    width: 97%;
+    height: max-content;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-1{
+    width: 32%;
+    height: max-content;
+    box-shadow: 0px 0px 3px 0px gray;
+}
+.img-div{
+    width: 100%;
+    height: max-content;
+}
+.img-div img{
+    width: 100%;
+}
+.text-1{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.text-1 h3,.text-1 p{
+    margin-top: 10px;
+}
+.div-section {
+    width: 95%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 3px 0px gray;
+}
+
+ .p-div { 
+    width: max-content;
+    height: max-content;
+}   
+.div-2 { 
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.div-2 h3 {
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.div-2 i {
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.black {
+    background-color: rgb(241,241,241);
+}
+.black h3,
+.black i {
+    color: black;
+}
+
+.img-parent{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 20PX;
+    padding-TOP: 20PX;
+
+}
+.img-1 ,.img-2{
+    width: 45%;
+    height: 300px;
+}
+.img-1 img ,.img-2 img{
+    width: 100%;
+    height: 300px;
+}
+
+.about{
+    width: 95%;
+    height: max-content;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+.about h1 , .about p{
+    padding-top: 20px;
+}
+
+.skill{
+    width: 95%;
+    height: max-content;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.skill h1 {
+    color: rgb(97,97,97);
+}
+.skill h3{
+    color: rgb(97,97,97);
+padding-top: 20px;
+}
+.gray-1{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(158,158,158);
+    margin-top: 20px;
+}
+.gray-2{
+    width: 95%;
+height: 40px;
+background-color: rgb(97,97,97);
+}
+.gray-2 h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.gray-3{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(158,158,158);
+    margin-top: 20px;
+}
+.gray-4{
+    width: 85%;
+height: 40px;
+background-color: rgb(97,97,97);
+}
+.gray-4 h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.gray-5{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(158,158,158);
+    margin-top: 20px;
+}
+.gray-6{
+    width: 80%;
+height: 40px;
+background-color: rgb(97,97,97);
+}
+.gray-6 h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.download{
+    width: 130;
+    height: 40px;
+background-color: rgb(97,97,97);
+color: white;
+margin-top: 20px;
+border: none;
+font-size: 15px;
+
+}
+.download:hover{
+    background-color: rgb(158,158,158);
+    color: black;
+    cursor: pointer;
+}
+
+.charge{
+    width: 95%;
+    height: max-content;
+    margin-left: 20px;  
+    padding-bottom: 20px;
+}
+.charge-1{
+    padding-top: 20px;
+}
+.package{
+    width: 100%;
+    height: max-content;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.basic , .pro{
+    width: 31%;
+    height: max-content;
+    box-shadow: 0px 0px 3px 0px gray;
+    opacity: .7;
+
+}
+.basic:hover ,.pro:hover{
+    opacity: 1;
+}
+.basic-1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.pro-1{
+    width: 100%;
+    height: 100px;
+    background-color: #009688;
+
+}
+.basic h2 , .pro h2{
+color: white;
+text-align: center;
+padding-top: 40px;
+}
+.list-div{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    padding-top: 10px;
+}
+.list-div li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.list-div span{
+    font-size: 25px;
+}
+.button-div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sign{
+    background-color: #009688;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+
+}
+
+.contact{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(158,158,158);
+    margin-left: -10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.location {
+    width: 95%;
+    height: max-content;
+    margin-top: 10px;
+    display: flex;
+}
+.mail{
+    width: 33.3%;
+    height: 100px;
+    background-color: rgb(97,97,97);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mail-1 {
+    color: white;
+    font-size: 25px;
+}
+.h4{
+    color: white;
+}
+.local{
+    width: 33.3%;
+    height: 100px;
+    background-color: rgb(0,150,136);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gray-line{
+    width: 95%;
+border: 2px solid white;
+margin-top: 20px;
+
+}
+
+.form{
+    width: 95%;
+    height: max-content;
+    padding-top: 20px;
+}
+.name{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+}
+.email-1{
+    padding-top: 20px;
+}
+.sm{
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    width: 140px;
+    height: 40px;
+}
+.sm:hover{
+    background-color: gray;
+}
+
+footer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-left: -10px;
+    background-color: rgb(97,97,97);
+}
+.footer-1,.blog,.tags{
+width: 30%;
+height: max-content;
+}
+.footer-1 h1,.blog h1 ,.tags h1{
+    margin-top: 20px;
+}
+.footer-1 p{
+    margin-top: 20px;
+}
+.lorem-1 ,.lorem-2{
+    width: 100%;
+    height: max-content;
+    padding-bottom: 10px;
+}
+.lorem-1 img ,.lorem-2 img{
+    width: 18%;
+    height: 18%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.lorem-1 h4 ,.lorem-2 h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.lorem-1 img, .lorem-1 h4{
+    display: inline-block;
+    vertical-align: top;
+}
+.lorem-2 img, .lorem-2 h4{
+    display: inline-block;
+    vertical-align: top;
+}
+.lorem-1:hover ,.lorem-2:hover {
+    background-color: #CCCCCC;
+}
+.div1 {
+    width: max-content;
+    height: 4%;
+    background-color: black;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.p{
+    color: white;
+}
+.n{
+    background-color: rgb(97,97,97);
+}
+
+
+
+.black-div{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-div h3{
+    color: white;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .portfolio{
+        display: none;
+    }
+}
+@media screen and (max-width:1000px) {
+    .navbar{
+        display: flex;
+    }
+}
+@media screen and (max-width:600px) {
+    .row-1 ,.row-2{
+        flex-direction: column;
+    }
+    .div-1{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    footer{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .tag-2{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .package{
+        flex-direction: column;
+    }
+    .basic , .pro{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .location{
+        flex-direction: column;
+
+    }
+    .mail , .local{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .photo ,.art{
+display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .img-parent{
+        flex-direction: column;
+    }
+    .img-1 ,.img-2{
+        width: 97%;
+    }
+}
